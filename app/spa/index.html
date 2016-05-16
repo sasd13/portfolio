@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Samir SAID-ALI | Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <script type="text/javascript" src="js/angular.js"></script>
     <script type="text/javascript" src="js/angular-route.js"></script>
 </head>
 <body ng-app="Core">
     <header>
-        <nav>
-            <ul>
+        <div id="top-nav">
+            <ul class="menu">
                 <li><a href="#/home">Home</a></li>
                 <li><a href="#/about">About</a></li>
                 <li><a href="#/skills">Skills</a></li>
@@ -17,17 +18,27 @@
                 <li><a href="#/jobs">Jobs</a></li>
                 <li><a href="#/contact">Contact</a></li>
             </ul>
-        </nav>
+        </div>
+        <div id="left-nav">
+            <ul class="menu">
+                <li><a href="#/home">Home</a></li>
+                <li><a href="#/about">About</a></li>
+                <li><a href="#/skills">Skills</a></li>
+                <li><a href="#/projects">Projects</a></li>
+                <li><a href="#/jobs">Jobs</a></li>
+                <li><a href="#/contact">Contact</a></li>
+            </ul>
+        </div>
         <div id="links">
             <ul>
-                <li>LinkedIn</li>
-                <li>GitHub</li>
-                <li>Mailto</li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Mailto</a></li>
             </ul>
         </div>
     </header>
     <div ng-view></div>
     <script type="text/javascript" src="app/app.js"></script>
-    <script type="text/javascript" src="app/core/module.js"></script>
+    <script type="text/javascript" src="app/core/core.js"></script>
 </body>
 </html>

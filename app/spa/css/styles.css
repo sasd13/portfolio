@@ -1,0 +1,81 @@
+body {
+    font-size: 16px;
+    line-height: 22px;
+    height: auto;
+    font-family: 'Raleway', sans-serif;
+    color: #373648;
+    background-color: #EEEFE5;
+}
+
+a:active, a:link, a:visited {
+    color: #d76713;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #813107;
+    text-decoration: none;
+}
+
+header {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+#top-nav {
+    display: inline-block;
+}
+
+#top-nav li, #links li {
+    float: left;
+}
+
+#top-nav a, #links a {
+    display: block;
+    margin: 25px 14px 0px 14px;
+    text-align: center;
+    -webkit-transition: .5s all ease-out;
+    -moz-transition: .5s all ease-out;
+    transition: .5s all ease-out;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 2px 3px 2px 5px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#top-nav a:hover, #top-nav a:active, #links a:hover, #links a:active {
+    color: #ACBCAF;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #ffffff;
+    padding: 2px 3px 2px 5px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#top-nav a:link, #top-nav a:visited, #links a:link, #links a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#left-nav {
+    display: none;
+}
+
+#links {
+    display: inline-block;
+    float: right;
+}
+
+#links li {
+    float: left;
+    list-style-type: none;
+}
