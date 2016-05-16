@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Dissolve Light";
+    src: url("../fonts/Dissolve_light.ttf");
+}
+
+@font-face {
+    font-family: "CF Legends of the Fall - Regular";
+    src: url("../fonts/CFLegendsoftheFall-Regular.ttf");
+}
+
 body {
     font-size: 16px;
     line-height: 22px;
@@ -18,15 +28,13 @@ a:hover {
 }
 
 header {
-    display: block;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 15px;
-    padding-left: 15px;
+    background-color: sienna;
 }
 
-.menu li {
+header li {
     list-style-type: none;
+    text-transform: capitalize;
+    font-family: "CF Legends of the Fall - Regular";
 }
 
 #top-nav {
@@ -39,7 +47,7 @@ header {
 
 #top-nav a, #links a {
     display: block;
-    margin: 25px 14px 0px 14px;
+    margin: 0px 10px 0px;
     text-align: center;
     -webkit-transition: .5s all ease-out;
     -moz-transition: .5s all ease-out;
@@ -49,20 +57,20 @@ header {
     padding: 2px 3px 2px 5px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+    font-size: 20px;
 }
 
 #top-nav a:hover, #top-nav a:active, #links a:hover, #links a:active {
-    color: #ACBCAF;
     text-decoration: none;
     font-weight: 500;
     background-color: #ffffff;
+    color: sienna;
     padding: 2px 3px 2px 5px;
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
 
 #top-nav a:link, #top-nav a:visited, #links a:link, #links a:visited {
-    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -73,9 +81,4 @@ header {
 #links {
     display: inline-block;
     float: right;
-}
-
-#links li {
-    float: left;
-    list-style-type: none;
 }
