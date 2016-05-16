@@ -15,6 +15,8 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #373648;
     background-color: #EEEFE5;
+    margin: 0px;
+    padding: 0px;
 }
 
 a:active, a:link, a:visited {
@@ -23,12 +25,14 @@ a:active, a:link, a:visited {
 }
 
 a:hover {
-    color: #813107;
+    color: #19334d;
     text-decoration: none;
 }
 
 header {
-    background-color: sienna;
+    background-color: #1f4060;
+    margin: 0px;
+    padding: 0px;
 }
 
 header li {
@@ -39,6 +43,7 @@ header li {
 
 #top-nav {
     display: inline-block;
+    margin-left: -40px;
 }
 
 #top-nav li, #links li {
@@ -47,7 +52,7 @@ header li {
 
 #top-nav a, #links a {
     display: block;
-    margin: 0px 10px 0px;
+    margin: 0px 10px 5px;
     text-align: center;
     -webkit-transition: .5s all ease-out;
     -moz-transition: .5s all ease-out;
@@ -64,7 +69,7 @@ header li {
     text-decoration: none;
     font-weight: 500;
     background-color: #ffffff;
-    color: sienna;
+    color: #1f4060;
     padding: 2px 3px 2px 5px;
     -moz-border-radius: 3px;
     border-radius: 3px;
