@@ -1,56 +1,38 @@
 @font-face {
-    font-family: "Dissolve Light";
-    src: url("../fonts/Dissolve_light.ttf");
+	font-family: "Dissolve Light";
+	src: url("../fonts/Dissolve_light.ttf");
 }
 
 @font-face {
-    font-family: "CF Legends of the Fall - Regular";
-    src: url("../fonts/CFLegendsoftheFall-Regular.ttf");
+	font-family: "CF Legends of the Fall - Regular";
+	src: url("../fonts/CFLegendsoftheFall-Regular.ttf");
 }
 
 body {
-    font-size: 16px;
-    line-height: 22px;
-    height: auto;
-    font-family: 'Raleway', sans-serif;
-    color: #373648;
-    background-color: #EEEFE5;
-    margin: 0px;
-    padding: 0px;
-}
-
-a:active, a:link, a:visited {
-    color: #d76713;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #19334d;
-    text-decoration: none;
+	margin: 0px;
+	background: #263749 url('../img/bg.jpg') no-repeat;
 }
 
 header {
-    background-color: #1f4060;
-    margin: 0px;
-    padding: 0px;
+   height: auto;
+   width: 100%;
+   padding: 10px;
+   text-align: center;
 }
 
-header li {
+nav {
+    display: inline-block;
+    margin-left: -40px;
+}
+
+nav li {
+	float: left;
     list-style-type: none;
     text-transform: capitalize;
     font-family: "CF Legends of the Fall - Regular";
 }
 
-#top-nav {
-    display: inline-block;
-    margin-left: -40px;
-}
-
-#top-nav li, #links li {
-    float: left;
-}
-
-#top-nav a, #links a {
+nav a {
     display: block;
     margin: 0px 10px 5px;
     text-align: center;
@@ -65,7 +47,7 @@ header li {
     font-size: 20px;
 }
 
-#top-nav a:hover, #top-nav a:active, #links a:hover, #links a:active {
+nav a:hover, nav a:active {
     text-decoration: none;
     font-weight: 500;
     background-color: #ffffff;
@@ -75,15 +57,20 @@ header li {
     border-radius: 3px;
 }
 
-#top-nav a:link, #top-nav a:visited, #links a:link, #links a:visited {
+nav a:link, nav a:visited {
     text-decoration: none;
 }
 
-#left-nav {
-    display: none;
+#home {
+	width: 1080px;
+	margin: 20px auto 20px;
+	color: #ffffff;
+	text-align: center;
 }
 
-#links {
-    display: inline-block;
-    float: right;
+#banner {
+	display: inline-block;
+	width:100%;
+	vertical-align: middle;
+	margin: 0px auto;
 }
