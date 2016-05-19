@@ -9,14 +9,14 @@
 }
 
 body {
+	width: 100%;
 	margin: 0px;
 	background: #263749 url('../img/bg.jpg') no-repeat;
 }
 
 header {
    height: auto;
-   width: 100%;
-   padding: 10px;
+   padding: 5px;
    text-align: center;
 }
 
@@ -28,31 +28,31 @@ nav {
 nav li {
 	float: left;
     list-style-type: none;
-    text-transform: capitalize;
-    font-family: "CF Legends of the Fall - Regular";
 }
 
 nav a {
     display: block;
     margin: 0px 10px 5px;
+    padding: 2px 3px 2px 5px;
+    font-size: 24px;
     text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Dissolve Light";
     -webkit-transition: .5s all ease-out;
     -moz-transition: .5s all ease-out;
     transition: .5s all ease-out;
     color: #ffffff;
-    text-decoration: none;
-    padding: 2px 3px 2px 5px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    font-size: 20px;
 }
 
 nav a:hover, nav a:active {
+	padding: 2px 3px 2px 5px;
+	background-color: #ffffff;
+	font-weight: 500;
     text-decoration: none;
-    font-weight: 500;
-    background-color: #ffffff;
     color: #1f4060;
-    padding: 2px 3px 2px 5px;
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
@@ -62,7 +62,6 @@ nav a:link, nav a:visited {
 }
 
 #home {
-	width: 1080px;
 	margin: 20px auto 20px;
 	color: #ffffff;
 	text-align: center;
@@ -71,6 +70,68 @@ nav a:link, nav a:visited {
 #banner {
 	display: inline-block;
 	width:100%;
-	vertical-align: middle;
 	margin: 0px auto;
+	vertical-align: middle;
+}
+
+#banner h1 {
+	font-family: "CF Legends of the Fall - Regular";
+	font-size: 90px;
+	letter-spacing: -2px
+}
+
+#about, #skills, #projects, #jobs, #contact {
+	min-height: 640px;
+	padding: 20px;
+	background-color: #ffffff;
+}
+
+#contact h1 {
+	text-align: center;
+}
+
+#contact-head {
+	width: 540px;
+	margin: 0px auto 0px;
+	text-align: center;
+}
+
+#contact-form {
+	width: 1080px;
+	height: auto;
+	margin: 50px auto 0px;
+	text-align: center;
+}
+
+#contact-form-col-left {
+	width: 30vw;
+	display: inline-block;
+}
+
+#contact-form-col-left input {
+	display: block;
+	width: 100%;
+	margin: 20px 0px 20px;
+	padding: 10px;
+	height: 30px;
+}
+
+#contact-form-col-right {
+	width: 32vw;
+	float: right;
+	position: relative;
+}
+
+#contact-form-col-right textarea {
+	display: block;
+	width: 100%;
+	margin: 20px 0px 20px;
+	padding: 10px;
+	height: 180px;
+}
+
+#contact-form input[type="submit"] {
+	width: 200px;
+	margin: 20px auto 0px;
+	padding: 20px;
 }
