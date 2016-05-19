@@ -28,6 +28,11 @@ nav {
 nav li {
 	float: left;
     list-style-type: none;
+    border-bottom: 1px solid #263749;
+}
+
+nav li:hover {
+	border-bottom-color: #ffffff;
 }
 
 nav a {
@@ -39,22 +44,11 @@ nav a {
     text-decoration: none;
     text-transform: capitalize;
     font-family: "Dissolve Light";
-    -webkit-transition: .5s all ease-out;
-    -moz-transition: .5s all ease-out;
-    transition: .5s all ease-out;
     color: #ffffff;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
 }
 
 nav a:hover, nav a:active {
-	padding: 2px 3px 2px 5px;
-	background-color: #ffffff;
-	font-weight: 500;
-    text-decoration: none;
-    color: #1f4060;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+	text-decoration: none;
 }
 
 nav a:link, nav a:visited {
